@@ -1,4 +1,8 @@
 
+export PATH=$PATH:/Users/andrew/bin/android-sdk-macosx/tools
+export PATH=$PATH:/Users/andrew/bin/android-sdk-macosx/platform-tools
+export SAFE_RM_CONFIG_HOME=~/gists
+
 # unix
 alias ll='gls -hal --color'
 PS1="[\[\033[32m\]\w]\[\033[0m\]\n\[\033[1;36m\]\[\033[1;33m\]>>> \[\033[0m\]"
@@ -8,9 +12,10 @@ function md {
     cd $1;
 }
 
-# osx
-alias atom='open -a /Applications/Atom.app/ '
-alias sublime='open -a /Applications/Sublime\ Text\ 2.app/'
+# mysql
+export PATH=$PATH:/usr/local/mysql/bin
+export PATH=$PATH:~/bin
+export PATH=$PATH:/Users/andrew/pear/bin
 
 # git
 alias gc='git commit -am '
@@ -29,3 +34,5 @@ alias hl='heroku local'
 # mysql
 alias mysql=/usr/local/mysql/bin/mysql
 alias mysqladmin=/usr/local/mysql/bin/mysqladmin
+
+alias rm=~/gists/safe-rm.sh
