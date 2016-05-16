@@ -8,7 +8,6 @@ alias gr='git reset --hard'
 
 #general
 alias 5min="sleep 300 && say 'back to work, dummy'"
-alias exercises="say start  && sleep 30  && say 2 && sleep 30  && say 3 && sleep 30  && say 4 && sleep 30  && say 5 && sleep 30  && say 6 && sleep 30  && say 7 && sleep 30  && say 8 && sleep 30  && say 9 && sleep 30 && say 'back to work, dummy'"
 
 # oh-otto
 alias work='cd ~/projects/oh-otto/cryptic-wave-1327/'
@@ -20,3 +19,13 @@ alias mysqladmin=/usr/local/mysql/bin/mysqladmin
 
 alias rm=~/gists/safe-rm.sh
 
+alias exercises="clear && toilet start && say start && sleep 29 \
+&& clear && toilet 2 && say 2 && sleep 29 \
+&& clear && toilet 3 && say 3 && sleep 29 \
+&& clear && toilet 4 && say 4 && sleep 29 \
+&& clear && toilet 5 && say 5 && sleep 29 \
+&& clear && toilet 6 && say 6 && sleep 29 \
+&& clear && toilet 7 && say 7 && sleep 29 \
+&& clear && toilet 8 && say 8 && sleep 29 \
+&& clear && toilet 9 && say 9 && sleep 29 \
+&& clear && toilet 'back to work' && say 'back to work' && sleep 29 "

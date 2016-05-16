@@ -16,5 +16,6 @@ function md {
 export PATH=$PATH:/usr/local/mysql/bin
 export PATH=$PATH:~/bin
 export PATH=$PATH:/Users/andrew/pear/bin
+export PATH=$PATH:~/.npm-packages/bin
 
 . ~/gists/andrews_frags
