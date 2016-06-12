@@ -53,7 +53,7 @@ sub read_config_file {
                     $protected_dirs{$file} = 1;
                 }
             }
-            close $fh;    # deliberatly ignore errors
+            close $fh;    # deliberately ignore errors
         }
         else {
             print {*STDERR} "Could not open configuration file: $filename\n";
