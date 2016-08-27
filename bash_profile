@@ -5,8 +5,7 @@ export SAFE_RM_CONFIG_HOME=~/gists
 
 # unix
 alias ll='gls -hal --color'
-PS1="[\[\033[32m\]\w]\[\033[0m\]\n\[\033[1;36m\]\[\033[1;33m\]>>> \[\033[0m\]"
-
+PS1="\[\033[38;5;11m\]\u@\h:\[$(tput sgr0)\]\[\033[38;5;15m\]\w\n>\[$(tput sgr0)\]"
 function md {
     mkdir $1;
     cd $1;
